@@ -2,9 +2,7 @@ from django.http import HttpResponse
 import urllib.request
 
 path_map = {
-  '': "8010",
-  '127': "8010",
-  'www': "8010",
+  # add all subdomains and the pprt they should get html from
 }
 
 def proxy(request):
